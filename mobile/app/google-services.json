@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "490516464916",
+    "project_id": "lizmat-23311"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490516464916:android:79aa852d45630aa6",
+        "android_client_info": {
+          "package_name": "com.ibititec.lizmat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAzkfZHAXVQGkoWPjvlBpUWqzqSUPCOeM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
