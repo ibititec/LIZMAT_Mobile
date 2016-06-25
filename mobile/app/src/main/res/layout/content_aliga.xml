@@ -28,8 +28,7 @@
         android:id="@+id/textView18"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fundada em 2012, a Liga Fluminense de Futebol Americano tem como missão promover a prática do futebol americano na grama em todo Estado do Rio de Janeiro e sua primeira categoria foi o NOPAD (jogado sem ombreiras e capacetes).
-Em 2016 a LiFFA mantém seu torneio já tradicional, e inicia o primeiro Campeonato Estadual Fullpad do RJ."
+        android:text="A LIZMAT é um projeto independente, que visa promover o esporte na Zona da Mata e em Minas Gerais."
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/Black"
         android:textSize="24sp" />

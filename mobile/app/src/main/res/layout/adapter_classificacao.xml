@@ -14,8 +14,8 @@
 
         <com.facebook.drawee.view.SimpleDraweeView
             android:id="@+id/ivClassificacao"
-            android:layout_width="110dp"
-            android:layout_height="86dp"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
             android:layout_gravity="center_horizontal"
             android:paddingBottom="3dp"
             fresco:actualImageScaleType="centerCrop"

@@ -31,7 +31,7 @@ public class PrimeiraDivisaoTabelaActivity extends AppCompatActivity {
     private ListView lvTabela;
     private LinearLayout cabecalhoLayout;
     private String funcionalidade, divisao, tabela, classificacao, artilharia;
-    static final String TAG = "LFFA";
+    static final String TAG = "LIZMAT";
     Toolbar toolbar;
 
     @Override

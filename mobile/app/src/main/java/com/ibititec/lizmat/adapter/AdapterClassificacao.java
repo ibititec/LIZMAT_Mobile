@@ -84,7 +84,7 @@ public class AdapterClassificacao extends BaseAdapter {
 
 
             if(!exibirPontuacao){
-                Uri imageUri = Uri.parse(MainActivity.PATH_FOTOS + classificacao.getEscudoTime() + ".png");
+                Uri imageUri = Uri.parse(MainActivity.PATH_FOTOS + classificacao.getEscudoTime() + "_escudo.png");
                 SimpleDraweeView draweeView = (SimpleDraweeView) layout.findViewById(R.id.ivClassificacao);
                 draweeView.setImageURI(imageUri);
                 //pontos.setVisibility(View.INVISIBLE);
@@ -94,9 +94,9 @@ public class AdapterClassificacao extends BaseAdapter {
                 //empates.setVisibility(View.INVISIBLE);
                 pontospc.setVisibility(View.INVISIBLE);
                 pontospp.setVisibility(View.INVISIBLE);
-                ViewGroup.LayoutParams params=draweeView.getLayoutParams();
-                params.width= ActionBar.LayoutParams.MATCH_PARENT;
-                draweeView.setLayoutParams(params);
+//                ViewGroup.LayoutParams params=draweeView.getLayoutParams();
+//                params.width= ActionBar.LayoutParams.MATCH_PARENT;
+//                draweeView.setLayoutParams(params);
             }
             //Appodeal.show(activity, Appodeal.BANNER_BOTTOM);
             return layout;

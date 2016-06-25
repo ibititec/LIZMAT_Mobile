@@ -70,7 +70,7 @@ public class PrimeiraDivisaoActivity extends AppCompatActivity {
     private void executarAcoes() {
 
         if (divisao.equals("primeira")) {
-            this.setTitle("LiFFA");
+            this.setTitle("LIZMAT");
         } else {
             this.setTitle("Segunda Divisão");
         }
