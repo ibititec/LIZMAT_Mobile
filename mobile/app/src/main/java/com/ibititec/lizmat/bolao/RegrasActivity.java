@@ -9,7 +9,6 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import com.appodeal.ads.Appodeal;
 import com.ibititec.lizmat.MainActivity;
 import com.ibititec.lizmat.R;
 
@@ -27,7 +26,6 @@ public class RegrasActivity extends AppCompatActivity {
         TextView tx =(TextView) findViewById(R.id.txtRegulamento);
         tx.setText(Html.fromHtml(getString(R.string.regulamento)));
 
-        Appodeal.show(this, Appodeal.BANNER_BOTTOM);
     }
 
     private void lerIntent() {
@@ -42,7 +40,6 @@ public class RegrasActivity extends AppCompatActivity {
         try {
             Intent intent = new Intent();
             intent.putExtra("divisao", divisao);
-            Appodeal.show(this, Appodeal.NATIVE);
             super.onBackPressed();
         } catch (Exception ex) {
             Log.i(MainActivity.TAG, "Erro: onBackPressedPrimeiraDivisaoTabela: " + ex.getMessage());

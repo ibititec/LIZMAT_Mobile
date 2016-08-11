@@ -9,8 +9,8 @@ android {
         applicationId "com.ibititec.lizmat"
         minSdkVersion 9
         targetSdkVersion 23
-        versionCode 18
-        versionName "2.6"
+        versionCode 20
+        versionName "3.0"
     }
     buildTypes {
         release {

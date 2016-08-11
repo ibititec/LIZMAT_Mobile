@@ -12,7 +12,6 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.appodeal.ads.Appodeal;
 import com.ibititec.lizmat.MainActivity;
 import com.ibititec.lizmat.R;
 import com.ibititec.lizmat.helpers.HttpHelper;
@@ -52,7 +51,6 @@ public class BolaoPrincipalActivity extends AppCompatActivity {
 
     private void lerIntent() {
         try {
-            Appodeal.show(this, Appodeal.BANNER_BOTTOM);
             Intent intent = getIntent();
             divisao = intent.getStringExtra("divisao");
             if (!HttpHelper.existeConexao(this)) {

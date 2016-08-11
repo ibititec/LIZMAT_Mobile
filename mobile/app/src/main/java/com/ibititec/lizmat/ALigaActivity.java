@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 
-import com.appodeal.ads.Appodeal;
 
 public class ALigaActivity extends AppCompatActivity {
 
@@ -17,13 +16,11 @@ public class ALigaActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        Appodeal.show(this, Appodeal.BANNER_BOTTOM);
         iniciarAppodeal();
     }
 
     private void iniciarAppodeal() {
         try {
-            Appodeal.show(this, Appodeal.BANNER_BOTTOM);
         } catch (Exception ex) {
             Log.i(MainActivity.TAG, "Erro: iniciarAppodeal: " + ex.getMessage());
         }

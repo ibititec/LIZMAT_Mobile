@@ -17,7 +17,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ListView;
 
-import com.appodeal.ads.Appodeal;
+
 import com.ibititec.lizmat.MainActivity;
 import com.ibititec.lizmat.R;
 import com.ibititec.lizmat.adapter.AdapterNoticia;
@@ -58,7 +58,7 @@ public class FeedNoticiasActivity extends AppCompatActivity {
 
     private void iniciarAppodeal() {
         try {
-            Appodeal.show(this, Appodeal.BANNER_BOTTOM);
+
         } catch (Exception ex) {
             Log.i(MainActivity.TAG, "Erro: iniciarAppodeal: " + ex.getMessage());
         }

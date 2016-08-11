@@ -104,11 +104,11 @@ public class AdapterJogosBolao extends BaseAdapter {
 //            Log.i(MainActivity.TAG, "jogo2Array[0]: " +jogo2Array[0]);
 //            Log.i(MainActivity.TAG, "jogo2Array[1]: " +jogo2Array[1]);
 //
-            Uri imageUriMandante = Uri.parse(MainActivity.PATH_FOTOS + rodadaObj.getEscudoPequenoMandante().trim());
+            Uri imageUriMandante = Uri.parse(MainActivity.PATH_FOTOS + rodadaObj.getEscudoPequenoMandante().trim() + ".png");
             SimpleDraweeView draweeViewMandante = (SimpleDraweeView) layout.findViewById(R.id.img_time_mandante_bolao);
             draweeViewMandante.setImageURI(imageUriMandante);
 
-            Uri imageUriVisistante = Uri.parse(MainActivity.PATH_FOTOS + rodadaObj.getEscudoPequenoVisitante().trim());
+            Uri imageUriVisistante = Uri.parse(MainActivity.PATH_FOTOS + rodadaObj.getEscudoPequenoVisitante().trim()+ ".png");
             SimpleDraweeView draweeViewVisistante = (SimpleDraweeView) layout.findViewById(R.id.img_time_visitante_bolao);
             draweeViewVisistante.setImageURI(imageUriVisistante);
 

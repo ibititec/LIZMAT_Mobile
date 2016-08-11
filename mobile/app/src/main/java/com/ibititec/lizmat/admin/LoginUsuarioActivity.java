@@ -17,7 +17,6 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.appodeal.ads.Appodeal;
 import com.ibititec.lizmat.MainActivity;
 import com.ibititec.lizmat.R;
 import com.ibititec.lizmat.helpers.HttpHelper;
@@ -49,7 +48,6 @@ public class LoginUsuarioActivity extends AppCompatActivity {
 
     private void iniciarAppodeal() {
         try {
-            Appodeal.show(this, Appodeal.BANNER);
         } catch (Exception ex) {
             Log.i(MainActivity.TAG, "Erro: iniciarAppodeal: " + ex.getMessage());
         }

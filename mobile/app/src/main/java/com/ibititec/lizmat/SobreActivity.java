@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-import com.appodeal.ads.Appodeal;
 import com.ibititec.lizmat.util.AnalyticsApplication;
 
 public class SobreActivity extends AppCompatActivity {
@@ -23,7 +22,6 @@ public class SobreActivity extends AppCompatActivity {
         iniciarAppodeal();
     }
     private void iniciarAppodeal() {
-        Appodeal.show(this, Appodeal.BANNER_BOTTOM);
     }
 
     @Override

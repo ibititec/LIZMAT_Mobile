@@ -11,7 +11,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.ibititec.campeonatold.bolao.PalpitePorJogoActivity"
+    tools:context="com.ibititec.lizmat.bolao.PalpitePorJogoActivity"
     tools:showIn="@layout/activity_palpite_por_jogo">
 
     <com.appodeal.ads.BannerView
@@ -85,20 +85,19 @@
 
 
             </LinearLayout>
-
             <com.facebook.drawee.view.SimpleDraweeView
                 android:id="@+id/img_time_mandante_palpite"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_width="170dp"
+                android:layout_height="140dp"
                 android:layout_gravity="center_horizontal"
-                android:paddingBottom="10dp"
-                android:paddingTop="20dp"
+                android:paddingBottom="3dp"
                 fresco:actualImageScaleType="centerCrop"
                 fresco:failureImage="@drawable/error_img"
                 fresco:failureImageScaleType="centerInside"
                 fresco:placeholderImage="@drawable/loading_img"
                 fresco:retryImage="@drawable/retry_img"
-                fresco:roundedCornerRadius="5dp" />
+                fresco:roundedCornerRadius="5dp"  />
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -141,17 +140,18 @@
 
             <com.facebook.drawee.view.SimpleDraweeView
                 android:id="@+id/img_time_visitante_palpite"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_width="170dp"
+                android:layout_height="140dp"
                 android:layout_gravity="center_horizontal"
-                android:paddingBottom="10dp"
-                android:paddingTop="10dp"
+                android:paddingBottom="3dp"
                 fresco:actualImageScaleType="centerCrop"
                 fresco:failureImage="@drawable/error_img"
                 fresco:failureImageScaleType="centerInside"
                 fresco:placeholderImage="@drawable/loading_img"
                 fresco:retryImage="@drawable/retry_img"
-                fresco:roundedCornerRadius="5dp" />
+                fresco:roundedCornerRadius="5dp"  />
+
+
 
             <LinearLayout
                 android:layout_width="match_parent"

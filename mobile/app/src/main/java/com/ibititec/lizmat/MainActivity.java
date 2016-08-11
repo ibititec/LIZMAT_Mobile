@@ -23,7 +23,6 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.appodeal.ads.Appodeal;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.ibititec.lizmat.helpers.HttpHelper;
@@ -116,7 +115,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void iniciarAppodeal() {
-        Appodeal.show(this, Appodeal.BANNER_BOTTOM);
+
     }
 
     @Override

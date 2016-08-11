@@ -18,7 +18,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.appodeal.ads.Appodeal;
+
 import com.facebook.drawee.view.SimpleDraweeView;
 import com.ibititec.lizmat.MainActivity;
 import com.ibititec.lizmat.R;
@@ -53,8 +53,7 @@ public class PalpitePorJogoActivity extends AppCompatActivity {
 
     private void iniciarAppodeal() {
         try {
-            Appodeal.setBannerViewId(R.id.appodealBannerView_palpiteporjogo);
-            Appodeal.show(this, Appodeal.BANNER);
+
         } catch (Exception ex) {
             Log.i(MainActivity.TAG, "Erro: iniciarAppodeal: " + ex.getMessage());
         }
@@ -80,7 +79,7 @@ public class PalpitePorJogoActivity extends AppCompatActivity {
 
             // add data to Intent
             setResult(PalpitePorJogoActivity.RESULT_OK, intent);
-            Appodeal.show(this, Appodeal.BANNER_TOP);
+
             super.onBackPressed();
         } catch (Exception ex) {
             Log.i(MainActivity.TAG, "Erro: onBackPressedPrimeiraDivisaoTabela: " + ex.getMessage());
@@ -159,8 +158,8 @@ public class PalpitePorJogoActivity extends AppCompatActivity {
         nomeTimePalpitePorJogoMandante = (TextView) findViewById(R.id.nomeTimePalpitePorJogoMandante);
         nomeTimePalpitePorJogoVisitante = (TextView) findViewById(R.id.nomeTimePalpitePorVisitante);
 
-        Uri imageUriMandante = Uri.parse(MainActivity.PATH_FOTOS + partida.getEscudoPequenoMandante().trim());
-        Uri imageUriVisitante = Uri.parse(MainActivity.PATH_FOTOS + partida.getEscudoPequenoVisitante().trim());
+        Uri imageUriMandante = Uri.parse(MainActivity.PATH_FOTOS + partida.getEscudoPequenoMandante().trim() +".png");
+        Uri imageUriVisitante = Uri.parse(MainActivity.PATH_FOTOS + partida.getEscudoPequenoVisitante().trim()+".png"   );
 
         nomeTimePalpitePorJogoMandante.setText(partida.getTimeMandante());
         nomeTimePalpitePorJogoVisitante.setText(partida.getTimeVisitante());

@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.appodeal.ads.Appodeal;
+
 import com.ibititec.lizmat.bolao.BolaoPrincipalActivity;
 
 public class PrimeiraDivisaoActivity extends AppCompatActivity {
@@ -56,7 +56,7 @@ public class PrimeiraDivisaoActivity extends AppCompatActivity {
     }
 
     private void iniciarAppodeal() {
-        Appodeal.show(this, Appodeal.BANNER_BOTTOM);
+
     }
     @Override
     public void onBackPressed() {

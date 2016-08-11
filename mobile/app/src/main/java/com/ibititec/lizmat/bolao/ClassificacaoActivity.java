@@ -13,7 +13,6 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.widget.ListView;
 
-import com.appodeal.ads.Appodeal;
 import com.ibititec.lizmat.MainActivity;
 import com.ibititec.lizmat.R;
 import com.ibititec.lizmat.adapter.AdapterClassificacaoBolao;
@@ -79,8 +78,6 @@ public class ClassificacaoActivity extends AppCompatActivity {
 
     private void iniciarAppodeal() {
         try {
-            Appodeal.setBannerViewId(R.id.appodealBannerView_classificacao);
-            Appodeal.show(this, Appodeal.BANNER);
         } catch (Exception ex) {
             Log.i(MainActivity.TAG, "Erro: iniciarAppodeal: " + ex.getMessage());
         }
@@ -94,7 +91,6 @@ public class ClassificacaoActivity extends AppCompatActivity {
 
             // add data to Intent
             setResult(ClassificacaoActivity.RESULT_OK, intent);
-            Appodeal.show(this, Appodeal.NATIVE);
             super.onBackPressed();
         } catch (Exception ex) {
             Log.i(MainActivity.TAG, "Erro OnBack Classificacao : " + ex.getMessage());
